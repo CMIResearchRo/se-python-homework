@@ -11,7 +11,7 @@ l1 = []
 x = input()
 
 # Cat timp de la tastatura nu primim exit ca si valoare
-while x != 'exit':
+while x != 'stop':
     # Adaugam la lista elementul nou primit de la tastatura
     l1.append(x)
     x = input()
