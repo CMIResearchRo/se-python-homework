@@ -3,7 +3,7 @@
     https://www.programiz.com/python-programming/docstrings
 
     Ex. 1: Modificati urmatoarea bucata de cod astfel incat
-    la rulare, lista l1 sa contina si elementul 10
+    la rulare, lista l1 sa contina si elementul 10.
 """
 # Acesta este un comentariu
 
