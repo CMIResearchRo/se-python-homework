@@ -6,3 +6,14 @@
         Veti primi: 'cmi'
         Veti printa: ('c', 'm', 'i')
 """
+
+x = input()
+
+y = list()
+
+for a in x:
+    y.append(a)
+    
+print(tuple(y))
+
+###

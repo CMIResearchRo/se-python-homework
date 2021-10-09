@@ -14,3 +14,19 @@
         Veti primi: 1232
         Veti printa: False
 """
+
+a = input()
+
+l1 = []
+l2 = []
+
+for x in a:
+    l1.append(x)
+    l2.append(x)
+l2.reverse()
+if l2 == l1:
+    print(True)
+else:
+    print(False)
+
+###
