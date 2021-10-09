@@ -10,3 +10,13 @@
         Veti primi: 'cmi', 'center', 'for', 'machines'
         Veti printa: ['cm', 'cente', 'fo', 'machine']
 """
+
+s=['cmi', 'center', 'for', 'machines']
+
+#a = str(0[:-1], 1[:-1])
+
+print(s)
+
+s = s([:-1],[:-1])
+
+print(b)
