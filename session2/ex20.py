@@ -16,3 +16,27 @@
             2: 'i'
         }
 """
+
+a = input()
+
+b = int(input())
+
+l1 = list()
+l2 = list()
+
+d1 = {
+
+}
+for n in a:
+    l1.append(n)
+print(l1)
+for i in range(b):
+    l2.append(i)
+print(l2)
+d1 = zip(l2, l1)
+d2 = dict(d1)
+
+print(d2)
+
+print("Am\n reusit!")
+###
