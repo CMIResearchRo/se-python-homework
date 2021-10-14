@@ -127,3 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+session2/ex20.py
