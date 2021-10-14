@@ -37,6 +37,4 @@ d1 = zip(l2, l1)
 d2 = dict(d1)
 
 print(d2)
-
-print("Am\n reusit!")
 ###
