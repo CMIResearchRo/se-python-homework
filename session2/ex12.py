@@ -8,3 +8,20 @@
         Veti primi 6, veti afisa [1, 2, 3, 4, 5]
         Veti primi 5, veti afisa [1, 4, 9, 16]
 """
+
+x = input()
+
+x= int(x)
+
+l= []
+
+for i in range(1,x):
+    if x % 2 == 0:
+        l.append(i)
+    else:
+        i = i * i
+        l.append(i)
+
+print(l)
+
+###

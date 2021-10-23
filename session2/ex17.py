@@ -7,3 +7,11 @@
         Veti primi: 'cmi', 5
         Veti printa: 'cmicmicmicmicmi'
 """
+
+a = input()
+
+b = input()
+
+print(a * int(b))
+
+###

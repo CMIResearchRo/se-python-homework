@@ -14,3 +14,20 @@
         Veti primi: 'cojoc'
         Veti printa: True
 """
+###
+
+a = input()
+
+l1 = []
+l2 = ""
+
+for x in a:
+    l2 = x + l2
+    l1.append(x)
+l2 = list(l2)
+if l2 == l1:
+    print(True)
+else:
+    print(False)
+
+###
