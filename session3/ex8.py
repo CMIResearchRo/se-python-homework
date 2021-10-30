@@ -10,10 +10,8 @@
 
 
 def dec(func):
-    def wrapper():
-        func()
-
-    return wrapper
+    print("cmi")
+    return func
 
 
 @dec
@@ -22,3 +20,5 @@ def f():
 
 
 f()
+
+###

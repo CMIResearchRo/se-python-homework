@@ -12,3 +12,9 @@
     Observatii:
         - functia trebuie sa aiba MAXIM 1 linie de cod ca si body
 """
+
+def word(pre, w, suf):
+    return pre+w+suf
+print(word('a', 'x', 'b'))
+
+###

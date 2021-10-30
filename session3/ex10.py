@@ -11,7 +11,7 @@
 def dec(func):
     def wrapper(*args, **kwargs):
         print('cmi')
-        # your code goes here
+        print(kwargs['y'])
         func(*args, **kwargs)
 
     return wrapper
@@ -23,3 +23,5 @@ def f(x, y):
 
 
 f(x=1, y=2)
+
+###

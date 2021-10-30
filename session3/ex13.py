@@ -4,8 +4,16 @@
     ar fi sa intoarca 'CmI' dupa aplicarea decoratorului.
 
 """
-
-
-# decoarate me
+def deco(text):
+    def upp():
+        textupp = text()
+        change = textupp.upper()
+        return change
+    return upp
+@deco
 def f():
     return 'cmi'
+
+print(f())
+
+###

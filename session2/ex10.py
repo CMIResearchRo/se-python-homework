@@ -17,9 +17,9 @@ l1 = [1, 2, 3, 4]
 l2 = ['a', 'b', 'c', 'd']
 
 # In varaibila d1 avem un dictionar gol
-d1 = [
-    {l1[0]:l2[0],l1[1]:l2[1],l1[2]:l2[2],l1[3]:l2[3]}
-]
+d1 = {
+    l1[0]:l2[0],l1[1]:l2[1],l1[2]:l2[2],l1[3]:l2[3]
+}
 # Afisam listele l1 si l2
 print(l1, l2)
 print(d1)

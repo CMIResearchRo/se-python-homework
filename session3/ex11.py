@@ -7,7 +7,18 @@
     Functia decorata este f.
 """
 
-
-# decorate me
+def deco(f):
+    def inner():
+        doc = open("output11.data", "w")
+        doc.write(f())
+        doc.close()
+        doc = open("output11.data", "r")
+        print(doc.read())
+    return inner
+    
+@deco
 def f():
     return "CMI"
+
+f()
+###
